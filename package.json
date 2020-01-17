@@ -1,0 +1,27 @@
+{
+  "name": "@zouzhiqiang/html-reload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "配合htmlwebpackplugin实现修改自动刷新",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "html-webpack-plugin",
+    "html-reload",
+    "zouzhiqiang"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "xiaoqiang<465633678@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/socket.io": "^2.1.4",
+    "@types/webpack": "^4.41.2",
+    "@zouzhiqiang/tslint-config": "^0.0.4",
+    "portfinder": "^1.0.25",
+    "webpack": "^4.41.5"
+  }
+}
